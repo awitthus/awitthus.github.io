@@ -30,7 +30,7 @@ github_username:  awitthus
 
 # Build settings
 remote_theme: pages-themes/minimal@v0.2.0
-plugins
+plugins:
   - jekyll-remote-theme 
   - jekyll-feed
 
