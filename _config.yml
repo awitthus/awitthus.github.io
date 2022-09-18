@@ -29,8 +29,9 @@ twitter_username: xanderwitthus
 github_username:  awitthus
 
 # Build settings
-theme: minima
-plugins:
+remote_theme: pages-themes/minimal@v0.2.0
+plugins
+  - jekyll-remote-theme 
   - jekyll-feed
 
 # Exclude from processing.
