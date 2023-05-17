@@ -21,7 +21,7 @@
 title: Xander Witthus 
 email: xwitthus34@gmail.com
 description: >- # this means to ignore newlines until "domain:"
-        The personal site of ASU EE Masters Student Alexander Witthus.
+        The personal site of ASU EE Masters Graduate Alexander Witthus.
 domain: awitthus.github.io
 url: "https://awitthus.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
