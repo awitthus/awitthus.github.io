@@ -246,7 +246,7 @@ img {
 .home__container{
   gap: 1rem;
 }
-/*
+
 .home__content{
   grid-template-columns: .5fr 3fr;
   padding-top: 3.5rem;
@@ -257,7 +257,7 @@ img {
   display: grid;
   grid-template-columns: max-content;
   row-gap: 1rem;
-}*/
+}
 
 .home__social-icon{
   font-size: 1.25rem;
