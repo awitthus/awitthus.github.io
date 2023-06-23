@@ -394,7 +394,7 @@ home.section__subtitle{
   row-gap: 0;
 }
 
-.skills_header{
+.skills__header{
   display:flex;
   align-items: center;
   margin-bottom: var(--mb-0-5);
