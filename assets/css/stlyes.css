@@ -368,7 +368,7 @@ home.section__subtitle{
   margin-bottom: var(--mb-2-5);
 }
 
-.about__ifno-title{
+.about__info-title{
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
