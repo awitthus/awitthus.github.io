@@ -480,8 +480,10 @@ skills__etc{
 .experiences__tabs{
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: (var(--mb-2));
+  margin-bottom: var(--mb-2);
 }
+
+
 
 /*==================== INTERESTS ====================*/
 
