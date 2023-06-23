@@ -256,7 +256,7 @@ img {
 .home__social{
   display: grid;
   grid-template-columns: max-content;
-  row-gap: .5rem;
+  row-gap: 1rem;
 }
 
 .home__social-icon{
@@ -269,7 +269,7 @@ img {
 }
 
 .home__blob{
-  width: 200px;
+  width: 300px;
   fill: var(--first-color)
 }
 
