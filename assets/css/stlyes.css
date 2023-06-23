@@ -476,10 +476,12 @@ skills__etc{
   transform: rotate(-180deg);
 }
 
-
-
 /*==================== EXPERIENCES ====================*/
-
+.experiences__tabs{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: (var(--mb-2));
+}
 
 /*==================== INTERESTS ====================*/
 
