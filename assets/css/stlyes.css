@@ -243,7 +243,7 @@ img {
 
 
 /*==================== HOME ====================*/
-.home__container {
+.home__container{
   gap: 1rem;
 }
 
@@ -253,11 +253,11 @@ img {
   align-items: center;
 }
 
-.home__social{
+/*.home__social{
   display: grid;
   grid-template-columns: max-content;
   row-gap: 1rem;
-}
+}*/
 
 .home__social-icon{
   font-size: 1.25rem;
