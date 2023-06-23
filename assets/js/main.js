@@ -37,7 +37,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*==================== QUALIFICATION TABS ====================*/
 
 
-/*==================== SERVICES MODAL ====================*/
+/*==================== INTERESTS MODAL ====================*/
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
