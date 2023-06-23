@@ -378,7 +378,7 @@ home.section__subtitle{
   font-size: var(--smaller-font-size);
 }
 
-about__info-title,
+.about__info-title,
 .about__info-name{
   display: block;
   text-align: center;
