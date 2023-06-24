@@ -540,9 +540,11 @@ skills__etc{
   display: none;
 }
 
+/*
 .experience__active[data-content]{
   display: block;
 }
+*/
 
 .experience__button.experience__active{
   color: var(--first-color);
