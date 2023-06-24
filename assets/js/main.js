@@ -32,7 +32,7 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*==================== ACCORDION SKILLS ====================*/
-const skillsContent = document.getElementsByClassName('skills__content')
+const skillsContent = document.getElementsByClassName('skills__content'),
       skillsHeader = document.querySelectorAll('.skills__header')
 
 function toggleSkills (){
@@ -51,7 +51,24 @@ skillsHeader.forEach((el) =>{
 })
 
 /*==================== EXPERIENCE TABS ====================*/
+const tabs = document.querySelectorAll('[data-target]'),
+      tabsContents = document.querySelectorAll('[data-content]')
 
+tabs.forEach(tab => {
+    tab.addEventListener('click', () =>{
+        const target = document.querySelector(tab.CDATA_SECTION_NODE.target)
+
+        tabsContents.forEach(tabContent => {
+            tabContent.classList.remove('experience__active')
+        })
+        target.classList.add('experience__active')
+
+        tab.forEach(tab => {
+            tab.classList.remove('experience__active')
+        })
+        tab.classList.add('experience__active')
+    })
+})
 
 /*==================== INTERESTS MODAL ====================*/
 
