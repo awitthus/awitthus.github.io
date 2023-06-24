@@ -536,7 +536,7 @@ skills__etc{
   transform: translate(6px,-7px);
 }
 
-.experience [data-content]{
+.experience[data-content]{
   display: none;
 }
 
