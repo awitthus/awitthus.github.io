@@ -285,7 +285,7 @@ img {
   font-size: var(--big-font-size);
 }
 
-home.section__subtitle{
+.home__subtitle{
   font-size: var(--h3-font-size);
   color: var(--text-color);
   font-weight: var(--font-medium);
