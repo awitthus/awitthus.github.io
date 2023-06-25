@@ -71,7 +71,27 @@ tabs.forEach(tab =>{
 })
 
 /*==================== INTERESTS MODAL ====================*/
+const modalViews = document.querySelectorAll('.interests__modal'),
+      modalBtns = document.querySelectorAll('.interests__button'),
+      modalCloses = document.querySelectorAll('.interests__modal-close')
 
+let modal = function(modalClick){
+    modalViews[modalClick].classList.add('active-modal')
+}
+
+modalBtns.forEach((modalBtn, i) => {
+    modalBtn.addEventListener('click', () =>{
+        modal(i)
+    })
+})
+
+modalCloses.forEach((modalClose) => {
+    modalClose.addEventListener('click', () => {
+        modalViews.forEach((modalView) => {
+            modalView.classList.remove('active-modal')
+        })
+    })
+})
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 
