@@ -573,10 +573,10 @@
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Recent Projects</span>
 
-                <div class="portfolio__containter container">
-                    <div>
+                <div class="portfolio__containter container swiper-container">
+                    <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO 1 ====================-->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio_stm32_music.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
@@ -592,7 +592,7 @@
                             </div>
                         </div>
                         <!--==================== PORTFOLIO 2 ====================-->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio_vlsi_gcn.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
@@ -609,7 +609,7 @@
                             </div>
                         </div>
                         <!--==================== PORTFOLIO 3 ====================-->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio_fpga_microprocessor.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
@@ -625,6 +625,13 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
 
