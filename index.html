@@ -88,16 +88,14 @@
                         <div class="home__img">
                             <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <path d="M66.7,-54.5C81.7,-34.5,85.7,-7,79.6,17.5C73.5,41.9,57.1,63.4,35.7,73.5C14.2,83.6,-12.5,82.5,-33.5,71.6C-54.6,
+                                    60.7,-70,40.1,-75.9,16.7C-81.7,-6.8,-78,-33,-63.8,-52.9C-49.6,-72.7,-24.8,-86.1,0.6,-86.6C25.9,-87,51.8,-74.5,66.7,-54.5Z" 
+                                    transform="translate(100 100)" />
                                 </mask>
                                 <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <path d="M66.7,-54.5C81.7,-34.5,85.7,-7,79.6,17.5C73.5,41.9,57.1,63.4,35.7,73.5C14.2,83.6,-12.5,82.5,-33.5,71.6C-54.6,
+                                    60.7,-70,40.1,-75.9,16.7C-81.7,-6.8,-78,-33,-63.8,-52.9C-49.6,-72.7,-24.8,-86.1,0.6,-86.6C25.9,-87,51.8,-74.5,66.7,-54.5Z" 
+                                    transform="translate(100 100)" />
                                     
                                     <image class="home__blob-img" x='0' y="0" xlink:href="assets/img/profile_pic_resized.png"/>
                                 </g>
@@ -108,8 +106,10 @@
                             <h1 class="home__title">Hi, I'm Alexander Witthus</h1>
                             <h3 class="home__subtitle">Electrical Engineering MSE</h3>
                             <p class="home__description">Graduate from Arizona State University with 
-                                Research and Internship experience. 
-                                Interested in Digital and Analog Circuit Design.</p>
+                                Research and Internship experience. <br>
+                                Interested in Digital & Analog Circuit Design and Embedded Systems Software.<br>
+                                Avid distance runner and Turkish language learner.
+                            </p>
                             <a href="#contact" class="button button--flex">
                                 Contact Me <i class="uil uil-message button__icon"></i>
                             </a>
@@ -555,7 +555,7 @@
                                     </li>
                                     <li class="interests__modal-interest">
                                         <i class="uil uil-check-circle interests__modal-icon"></i>
-                                        <p>Arduino</p>
+                                        <p>Arduino (C/C++ like)</p>
                                     </li>
                                     <li class="interests__modal-interest">
                                         <i class="uil uil-check-circle interests__modal-icon"></i>
@@ -576,6 +576,54 @@
                 <div class="portfolio__containter container">
                     <div>
                         <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid">
+                            <img src="assets/img/portfolio_stm32_music.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">STM32: Music Note Synthesis</h3>
+                                <p class="portfolio__description">
+                                    Sinewave generation at various frequencies through the synthesis of musical notes 
+                                    using STM32F407 dev board and Pmod I2S2 peripheral.
+                                </p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid">
+                            <img src="assets/img/portfolio_vlsi_gcn.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">VLSI: ASIC Acceleration for Graph Convolutional Neural Networks (GCNs)</h3>
+                                <p class="portfolio__description">
+                                    Wrote Verilog for GCN, verified functionality. Synthesized design using Synopsys DC and 
+                                    verified netlist. Performed APR using Cadence Innovus. Performed Post-APR using GDS export in
+                                    Cadence Virtuoso. Ran DRC/LVS on final layout. Utilized Innovus for power measurement.
+                                </p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid">
+                            <img src="assets/img/portfolio_fpga_microprocessor.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">DE10-Lite FPGA: Microprocessor Design</h3>
+                                <p class="portfolio__description">
+                                    Implementation of a simple microprocessor on DE10-Lite FPGA written in SystemVerilog.
+                                    Successfully compiled, simulated, tested, and synthesized for deployment to hardware.
+                                </p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
