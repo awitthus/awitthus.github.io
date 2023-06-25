@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9.4.1/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/stlyes.css">
@@ -573,12 +573,12 @@
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Recent Projects</span>
 
-                <div class="portfolio__containter container swiper-container">
+                <div class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
-                        <!--==================== PORTFOLIO 1 ====================-->
+                        <!--=============== PORTFOLIO 1 ===============-->
                         <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio_stm32_music.png" alt="" class="portfolio__img">
-
+    
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">STM32: Music Note Synthesis</h3>
                                 <p class="portfolio__description">
@@ -591,10 +591,11 @@
                                 </a>
                             </div>
                         </div>
-                        <!--==================== PORTFOLIO 2 ====================-->
+    
+                        <!--=============== PORTFOLIO 2 ===============-->
                         <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio_vlsi_gcn.png" alt="" class="portfolio__img">
-
+    
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">VLSI: ASIC Acceleration for Graph Convolutional Neural Networks (GCNs)</h3>
                                 <p class="portfolio__description">
@@ -608,10 +609,11 @@
                                 </a>
                             </div>
                         </div>
-                        <!--==================== PORTFOLIO 3 ====================-->
+    
+                        <!--=============== PORTFOLIO 3 ===============-->
                         <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio_fpga_microprocessor.png" alt="" class="portfolio__img">
-
+    
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">DE10-Lite FPGA: Microprocessor Design</h3>
                                 <p class="portfolio__description">
@@ -627,8 +629,12 @@
                     </div>
 
                     <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
 
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
@@ -660,7 +666,7 @@
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9.4.1/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
