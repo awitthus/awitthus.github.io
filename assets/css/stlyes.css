@@ -882,6 +882,10 @@ skills__etc{
   border-radius: .5rem;
 }
 
+::-webkit-scrollbar-thumb:hover{
+  background-color: var(--text-color-light);
+}
+
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 
